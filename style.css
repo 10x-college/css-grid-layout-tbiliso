@@ -7,11 +7,9 @@ body{
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding: 210px 120px;
-}
-header{
     
 }
+
 
 main{
     
@@ -20,6 +18,7 @@ main{
     grid-template-rows: repeat(3, 200px);
     gap: 20px;
     justify-content: center;
+    width: 1512px;
     .card{
         width: 300px;
         height: 200px;
