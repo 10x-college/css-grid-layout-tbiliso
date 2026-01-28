@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Manrope:wght@200..800&family=Noto+Serif+Georgian:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    
+}
+
+
+main{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 20px;
+    justify-content: center;
+    width: 1512px;
+    .card{
+        width: 300px;
+        height: 200px;
+    }
+
+    h1{
+        font-size: 50px;
+        font: medium;
+        font-weight: 500;
+        height: 59px;
+        grid-area: 1 / 1 / 2 /5;
+        align-self: center;
+        
+    }
+}
